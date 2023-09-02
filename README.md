@@ -18,3 +18,37 @@
 **Content Discovery:** A summarizer can help users quickly assess whether a video aligns with their interests, making content discovery more efficient.
 
 ---
+
+## Libraries used
+
+youtube_transcript_api
+
+transformers
+
+gunicorn
+
+flask
+
+
+## How to configure
+
+Clone the repo
+
+```
+git clone https://github.com/Sre-n/YouTubeVideoSummarizer
+```
+
+Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+
+## How to Run
+
+Run server 
+
+```
+python app.py
+```
